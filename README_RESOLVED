@@ -1,0 +1,33 @@
+  Fixed initial Compile issues
+  Added Service layer
+  
+  
+  Additional flags to be added for auto-bid feature 
+  AutoBid flag
+  minBidValue 
+  
+   Assumption I made based on bidding process :
+   Once a new bid is placed it will check to see if the price of the current bid
+    is within the auto-bid range and follow the process below.
+
+   On the server side, the server will collect all auto bids for a current auction. 
+   The price of the current bid will be checked to see if it is in range of any auto bid
+    and it will make a list of all auto bids within the range. 
+    From here, it processes the auto bids until the price is no longer within range of any auto bids.
+    
+   If two bidders place auto bids for identical amounts on the same project, 
+   and this amount is the low bid when the auction closes, the first auto bid 
+   that was placed(CreatedDate) will be the winning bid.
+   
+Exercise Difficulty: 
+Between moderate and difficult
+How did you feel about the exercise itself? (1 lowest, 10 highest—awesome way to assess coding ability)
+8
+How do you feel about coding an exercise as a step in the interview process?  (1 lowest, 10 highest—awesome way to assess coding ability)
+10
+What would you change in the exercise and/or process?
+A craft project allows the candidate to work without pressure, 
+hence bringing out their abilities in less stressful environment.
+On the spot coding exercises during phone interviews may not show case 
+the best in a candidate due to pressure
+  
