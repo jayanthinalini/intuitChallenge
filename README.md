@@ -25,10 +25,13 @@ Running Application
     
 Exercise Difficulty: 
 Between moderate and difficult
+
 How did you feel about the exercise itself? (1 lowest, 10 highest—awesome way to assess coding ability)
 8
+
 How do you feel about coding an exercise as a step in the interview process?  (1 lowest, 10 highest—awesome way to assess coding ability)
 10
+
 What would you change in the exercise and/or process?
 On the spot coding exercises during phone interviews may not always 
 show case the best in a candidate.
